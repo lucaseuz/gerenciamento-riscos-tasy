@@ -69,11 +69,6 @@ gerenciamento-de-risco/
 ├── imagens/                               # Recursos visuais
 │   ├── matriz-riscos.png                  # Matriz de Probabilidade × Impacto
 │   └── fluxo-processo.png                 # Fluxo de validação automática
-│
-└── prompts/                               # Prompts utilizados com a IA
-    ├── prompt-identificacao.md            # Prompt da Etapa 1
-    ├── prompt-analise.md                  # Prompt da Etapa 2
-    └── prompt-respostas.md                # Prompt da Etapa 3
 ```
 
 ---
@@ -120,14 +115,6 @@ gerenciamento-de-risco/
 | `matriz-riscos.png`    | Representação visual da Matriz Qualitativa de Probabilidade × Impacto   |
 | `fluxo-processo.png`   | Fluxograma da validação automática de repasse na exclusão de itens      |
 
-### 📁 prompts/
-
-| Arquivo                     | Conteúdo                                                                        |
-|-----------------------------|---------------------------------------------------------------------------------|
-| `prompt-identificacao.md`   | Prompt utilizado para solicitar à IA a identificação dos riscos (Etapa 1)        |
-| `prompt-analise.md`         | Prompt utilizado para solicitar à IA a análise qualitativa (Etapa 2)             |
-| `prompt-respostas.md`       | Prompt utilizado para solicitar à IA as estratégias de resposta (Etapa 3)        |
-
 ---
 
 ## 🤖 Como a Inteligência Artificial Foi Utilizada
@@ -148,7 +135,6 @@ A IA Generativa foi utilizada como **ferramenta de coprodução** em todas as et
 
 - Todo conteúdo foi **revisado e validado** por profissional com conhecimento do contexto;
 - **Nenhum dado real** de pacientes, médicos ou operadoras foi fornecido à IA;
-- Os **prompts foram documentados** para garantir transparência e reprodutibilidade;
 - As **limitações da IA** foram explicitamente documentadas no artefato correspondente.
 
 > Para detalhes completos sobre o uso da IA, consulte [`docs/consideracoes-ia.md`](docs/consideracoes-ia.md).
